@@ -1,0 +1,38 @@
+.extension-container {
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    width: 400px;
+    background: white;
+    box-shadow: 1px 2px 4px 1px #ccc;
+    z-index: 1;
+}
+
+.extension-container:focus {
+    display: flex !important;
+}
+
+.fake-metric {
+    font-size: 1.2rem;
+}
+
+.remove-text-btn,
+.close-btn {
+    padding: 0.35em 0.75em;
+    border-radius: 100vw;
+    background: red;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.close-btn {
+    background: blue;
+}
